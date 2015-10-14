@@ -1,0 +1,61 @@
+.container {
+    background-color: #252525;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.inner {
+    background-color: #C8C8C8;
+    position: absolute;
+    width: 580px;
+    height: 575px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.knob {
+    background-color: #575759;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+#left_b {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 600px;
+    margin-bottom: 10px;
+}
+#button {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 630px;
+    margin-bottom: 10px;
+}
+#right_b {
+    position: absolute;
+    margin-left: 495px;
+    margin-top: 600px;
+    margin-bottom: 10px;
+}
+#g_area {
+    background-color: #C8C8C8;
+    position: relative;
+    width: 580px;
+    height: 575px;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size:0
+    
+}
+.square {
+    display: inline-block;
+    position: relative;
+    background-color: #C8C8C8;
+    outline-color: #000000;
+    outline-style: solid;
+    box-sizing:border-box;
+    outline: 2px;
+}
